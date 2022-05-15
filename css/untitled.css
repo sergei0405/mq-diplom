@@ -1,0 +1,36 @@
+.search {
+  position: relative;
+}
+
+.field.search_field {
+  padding-right: 58px;
+}
+
+.field_search {
+  left: 0px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+}
+
+.button.search_button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 48px;
+  height: 48px;
+}
+
+.picture {
+  width: 18px;
+  height: 18px;
+}
+
+.buttom_search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;

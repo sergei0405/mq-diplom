@@ -1,0 +1,126 @@
+
+
+<div class="header_logo"><a class="logo" href="#"><img class="logo_img" src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"></a></div>
+
+
+
+
+@media (max-width: 769px){
+
+.products-box{
+  max-width: 699px;
+}
+
+
+.pic{
+  max-width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic:nth-child(1n){
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.header {
+  background: url(../images/banner-bg-tablet.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.header__burger{
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  margin-top: 50px;
+  margin-right: 30px;
+} 
+
+.header__burger:before,.header__burger:after{
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+}
+
+.header__burger:before{
+  top: 0;
+}
+
+.header__burger:after{
+  bottom: 0;
+}
+
+.header__burger span{
+  position: absolute;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 9px;
+}
+.nav{
+  display: none;
+}
+
+.footer,.conteiner,.body,.news,.post-trend,.header{
+  width: 769px;
+}
+
+.news-trend{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.open:nth-child(1n),.open:nth-child(2n){
+  margin-bottom: 5px;
+  }
+
+.course{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foot-block{
+  display: flex;
+  flex-wrap: wrap;
+  width: 769px;
+  margin: 0 auto;
+}
+
+.products-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 769px;
+  margin: 0 auto;
+  }
+.foot_navi{
+  width: 769px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.trend-one,.trend-two,.trend-three,.trend-four{
+  width: 30px;
+}
+
+.diva{
+  max-width: 50%;
+}
+
+.diva:nth-child(2n){
+margin-right: -5px;
+margin-bottom: 5px;
+}
+
+.news-trend{
+  width: 768px;
+}
+}
